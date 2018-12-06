@@ -1,0 +1,59 @@
+.navbar-default{
+    background-color: #2a2a2a;
+    height: 55px;
+    overflow: hidden;
+}
+
+.navbar-default .navbar-nav >li >a:hover,.navbar-default .navbar-nav >li >a:focus {
+    color: white;
+}
+
+#namehead{
+    font-size: 70px;
+    margin-top: 100px;
+}
+#name{
+    height: 570px;
+}
+#skills{
+    /*    height: 725px;*/
+    background-image: url(src/code.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    height: auto;
+}
+h2{
+    margin-top: 60px;
+}
+.para{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#name footer{
+    font-style: italic;
+}
+.prog-bar{
+    height: 20px;
+    color: green;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+.skillset{
+    margin-top: 40px;
+}
+.navbar-default li:hover{
+    border-bottom: 5px solid #CC0000;
+}
+body{
+    margin: 0;
+}
+#exp{
+    background-image: url(src/exp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
